@@ -37,17 +37,19 @@ let SocialMedia = document.querySelector('.Social-Media');
 let togglebtn = document.querySelector('.toggle-btn');
 let mainnvabar = document.querySelector('.main-nav-bar');
 let logooneElement = document.querySelector('.logo-one');
-let codingElement = document.querySelector('.coding');
+
+
 
 function AutoResizing(){
-    const mainwindow = window.innerWidth;
-    if(mainwindow <= 997){
+    const windowscreen = window.innerWidth;
+    if(windowscreen <= 1100){
         homepages.style.display = 'none';
         SocialMedia.style.display = 'none';
         togglebtn.style.display = 'block';
-        mainnvabar.style.padding = '30px';
+        mainnvabar.style.padding = '50px';
         logooneElement.style.color = 'blue';
-        codingElement.style.fontsize = '30px';
+        logooneElement.style.fontSize = '40px';
+        
 
     } else {
         homepages.style.display = 'block';
@@ -55,7 +57,8 @@ function AutoResizing(){
         togglebtn.style.display = 'none'
         mainnvabar.style.padding = '0';
         logooneElement.style.color = 'red';
-        codingElement.style.fontsize = '30px';
+        logooneElement.style.fontSize = 'x-larger';
+        
     }
 }
 
