@@ -48,7 +48,7 @@ function AutoResizing(){
         togglebtn.style.display = 'block';
         mainnvabar.style.padding = '50px';
         logooneElement.style.color = 'blue';
-        logooneElement.style.fontSize = '40px';
+        logooneElement.style.fontSize = '30px';
         
 
     } else {
@@ -57,7 +57,7 @@ function AutoResizing(){
         togglebtn.style.display = 'none'
         mainnvabar.style.padding = '0';
         logooneElement.style.color = 'red';
-        logooneElement.style.fontSize = 'x-larger';
+        logooneElement.style.fontSize = '25px';
         
     }
 }
